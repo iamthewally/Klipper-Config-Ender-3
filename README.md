@@ -1,11 +1,12 @@
 # Klipper-Config-Ender-3
-Klipper configuration files for my Ender 3
+
+Klipper configuration files for my Ender 3.  Recently broke out the macros and major components into their own cfg files in subfolders.  My current process for swapping tool heads (via crab) is to change the include statement in the printer.cfg and running a PID tune once the printer starts up.
+
 
 It is an Ender 3 V2 with the following mods:
 
-Pi 4B + Klipper
-
-BTT SKR E3 Turbo board
+Pi 4B + Klipper/FluiddPi
+BTT SKR E3 Turbo boar
 
 Dual Independent Z Motors
 
@@ -21,4 +22,4 @@ Biqu Crab Mounting System
 
 Dyze Horizon ABL (Mounted between Crab and Carriage
 
-CHeap LED light from amazon taped to top rail
+Cheap LED light from amazon taped to top rail
